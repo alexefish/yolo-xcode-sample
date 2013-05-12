@@ -1,514 +1,1469 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0655F436173FB3B50093E906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F435173FB3B50093E906 /* UIKit.framework */; };
-		0655F438173FB3B50093E906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F437173FB3B50093E906 /* Foundation.framework */; };
-		0655F43A173FB3B50093E906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F439173FB3B50093E906 /* CoreGraphics.framework */; };
-		0655F440173FB3B50093E906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0655F43E173FB3B50093E906 /* InfoPlist.strings */; };
-		0655F442173FB3B50093E906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655F441173FB3B50093E906 /* main.m */; };
-		0655F446173FB3B50093E906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655F445173FB3B50093E906 /* AppDelegate.m */; };
-		0655F448173FB3B50093E906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0655F447173FB3B50093E906 /* Default.png */; };
-		0655F44A173FB3B50093E906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0655F449173FB3B50093E906 /* Default@2x.png */; };
-		0655F44C173FB3B50093E906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0655F44B173FB3B50093E906 /* Default-568h@2x.png */; };
-		0655F44F173FB3B50093E906 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655F44E173FB3B50093E906 /* MasterViewController.m */; };
-		0655F452173FB3B50093E906 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655F451173FB3B50093E906 /* DetailViewController.m */; };
-		0655F455173FB3B50093E906 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0655F453173FB3B50093E906 /* MasterViewController_iPhone.xib */; };
-		0655F458173FB3B50093E906 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0655F456173FB3B50093E906 /* MasterViewController_iPad.xib */; };
-		0655F45B173FB3B50093E906 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0655F459173FB3B50093E906 /* DetailViewController_iPhone.xib */; };
-		0655F45E173FB3B50093E906 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0655F45C173FB3B50093E906 /* DetailViewController_iPad.xib */; };
-		0655F466173FB3B50093E906 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F465173FB3B50093E906 /* SenTestingKit.framework */; };
-		0655F467173FB3B50093E906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F435173FB3B50093E906 /* UIKit.framework */; };
-		0655F468173FB3B50093E906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655F437173FB3B50093E906 /* Foundation.framework */; };
-		0655F470173FB3B50093E906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0655F46E173FB3B50093E906 /* InfoPlist.strings */; };
-		0655F473173FB3B50093E906 /* YoloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655F472173FB3B50093E906 /* YoloTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0655F469173FB3B50093E906 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0655F42A173FB3B50093E906 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0655F431173FB3B50093E906;
-			remoteInfo = Yolo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0655F432173FB3B50093E906 /* Yolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0655F435173FB3B50093E906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0655F437173FB3B50093E906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0655F439173FB3B50093E906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0655F43D173FB3B50093E906 /* Yolo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yolo-Info.plist"; sourceTree = "<group>"; };
-		0655F43F173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0655F441173FB3B50093E906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0655F443173FB3B50093E906 /* Yolo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yolo-Prefix.pch"; sourceTree = "<group>"; };
-		0655F444173FB3B50093E906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0655F445173FB3B50093E906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0655F447173FB3B50093E906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0655F449173FB3B50093E906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		0655F44B173FB3B50093E906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0655F44D173FB3B50093E906 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0655F44E173FB3B50093E906 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0655F450173FB3B50093E906 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0655F451173FB3B50093E906 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		0655F454173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
-		0655F457173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
-		0655F45A173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
-		0655F45D173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
-		0655F464173FB3B50093E906 /* YoloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0655F465173FB3B50093E906 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0655F46D173FB3B50093E906 /* YoloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoloTests-Info.plist"; sourceTree = "<group>"; };
-		0655F46F173FB3B50093E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0655F471173FB3B50093E906 /* YoloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoloTests.h; sourceTree = "<group>"; };
-		0655F472173FB3B50093E906 /* YoloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoloTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0655F42F173FB3B50093E906 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F436173FB3B50093E906 /* UIKit.framework in Frameworks */,
-				0655F438173FB3B50093E906 /* Foundation.framework in Frameworks */,
-				0655F43A173FB3B50093E906 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0655F460173FB3B50093E906 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F466173FB3B50093E906 /* SenTestingKit.framework in Frameworks */,
-				0655F467173FB3B50093E906 /* UIKit.framework in Frameworks */,
-				0655F468173FB3B50093E906 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		0655F429173FB3B50093E906 = {
-			isa = PBXGroup;
-			children = (
-				0655F43B173FB3B50093E906 /* Yolo */,
-				0655F46B173FB3B50093E906 /* YoloTests */,
-				0655F434173FB3B50093E906 /* Frameworks */,
-				0655F433173FB3B50093E906 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		0655F433173FB3B50093E906 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0655F432173FB3B50093E906 /* Yolo.app */,
-				0655F464173FB3B50093E906 /* YoloTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0655F434173FB3B50093E906 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0655F435173FB3B50093E906 /* UIKit.framework */,
-				0655F437173FB3B50093E906 /* Foundation.framework */,
-				0655F439173FB3B50093E906 /* CoreGraphics.framework */,
-				0655F465173FB3B50093E906 /* SenTestingKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0655F43B173FB3B50093E906 /* Yolo */ = {
-			isa = PBXGroup;
-			children = (
-				0655F444173FB3B50093E906 /* AppDelegate.h */,
-				0655F445173FB3B50093E906 /* AppDelegate.m */,
-				0655F44D173FB3B50093E906 /* MasterViewController.h */,
-				0655F44E173FB3B50093E906 /* MasterViewController.m */,
-				0655F450173FB3B50093E906 /* DetailViewController.h */,
-				0655F451173FB3B50093E906 /* DetailViewController.m */,
-				0655F453173FB3B50093E906 /* MasterViewController_iPhone.xib */,
-				0655F456173FB3B50093E906 /* MasterViewController_iPad.xib */,
-				0655F459173FB3B50093E906 /* DetailViewController_iPhone.xib */,
-				0655F45C173FB3B50093E906 /* DetailViewController_iPad.xib */,
-				0655F43C173FB3B50093E906 /* Supporting Files */,
-			);
-			path = Yolo;
-			sourceTree = "<group>";
-		};
-		0655F43C173FB3B50093E906 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0655F43D173FB3B50093E906 /* Yolo-Info.plist */,
-				0655F43E173FB3B50093E906 /* InfoPlist.strings */,
-				0655F441173FB3B50093E906 /* main.m */,
-				0655F443173FB3B50093E906 /* Yolo-Prefix.pch */,
-				0655F447173FB3B50093E906 /* Default.png */,
-				0655F449173FB3B50093E906 /* Default@2x.png */,
-				0655F44B173FB3B50093E906 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0655F46B173FB3B50093E906 /* YoloTests */ = {
-			isa = PBXGroup;
-			children = (
-				0655F471173FB3B50093E906 /* YoloTests.h */,
-				0655F472173FB3B50093E906 /* YoloTests.m */,
-				0655F46C173FB3B50093E906 /* Supporting Files */,
-			);
-			path = YoloTests;
-			sourceTree = "<group>";
-		};
-		0655F46C173FB3B50093E906 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0655F46D173FB3B50093E906 /* YoloTests-Info.plist */,
-				0655F46E173FB3B50093E906 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		0655F431173FB3B50093E906 /* Yolo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0655F476173FB3B50093E906 /* Build configuration list for PBXNativeTarget "Yolo" */;
-			buildPhases = (
-				0655F42E173FB3B50093E906 /* Sources */,
-				0655F42F173FB3B50093E906 /* Frameworks */,
-				0655F430173FB3B50093E906 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Yolo;
-			productName = Yolo;
-			productReference = 0655F432173FB3B50093E906 /* Yolo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		0655F463173FB3B50093E906 /* YoloTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0655F479173FB3B50093E906 /* Build configuration list for PBXNativeTarget "YoloTests" */;
-			buildPhases = (
-				0655F45F173FB3B50093E906 /* Sources */,
-				0655F460173FB3B50093E906 /* Frameworks */,
-				0655F461173FB3B50093E906 /* Resources */,
-				0655F462173FB3B50093E906 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0655F46A173FB3B50093E906 /* PBXTargetDependency */,
-			);
-			name = YoloTests;
-			productName = YoloTests;
-			productReference = 0655F464173FB3B50093E906 /* YoloTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		0655F42A173FB3B50093E906 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = ustwo;
-			};
-			buildConfigurationList = 0655F42D173FB3B50093E906 /* Build configuration list for PBXProject "Yolo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 0655F429173FB3B50093E906;
-			productRefGroup = 0655F433173FB3B50093E906 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				0655F431173FB3B50093E906 /* Yolo */,
-				0655F463173FB3B50093E906 /* YoloTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		0655F430173FB3B50093E906 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F440173FB3B50093E906 /* InfoPlist.strings in Resources */,
-				0655F448173FB3B50093E906 /* Default.png in Resources */,
-				0655F44A173FB3B50093E906 /* Default@2x.png in Resources */,
-				0655F44C173FB3B50093E906 /* Default-568h@2x.png in Resources */,
-				0655F455173FB3B50093E906 /* MasterViewController_iPhone.xib in Resources */,
-				0655F458173FB3B50093E906 /* MasterViewController_iPad.xib in Resources */,
-				0655F45B173FB3B50093E906 /* DetailViewController_iPhone.xib in Resources */,
-				0655F45E173FB3B50093E906 /* DetailViewController_iPad.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0655F461173FB3B50093E906 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F470173FB3B50093E906 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0655F462173FB3B50093E906 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "test_bundle_path=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\"\nenvironment_args=\"--setenv DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection --setenv XCInjectBundle=$test_bundle_path --setenv XCInjectBundleInto=$TEST_HOST\"\nios-sim launch $(dirname $TEST_HOST) $environment_args --args -SenTest All $test_bundle_path\necho \"Finished running tests with ios-sim\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0655F42E173FB3B50093E906 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F442173FB3B50093E906 /* main.m in Sources */,
-				0655F446173FB3B50093E906 /* AppDelegate.m in Sources */,
-				0655F44F173FB3B50093E906 /* MasterViewController.m in Sources */,
-				0655F452173FB3B50093E906 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0655F45F173FB3B50093E906 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0655F473173FB3B50093E906 /* YoloTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0655F46A173FB3B50093E906 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0655F431173FB3B50093E906 /* Yolo */;
-			targetProxy = 0655F469173FB3B50093E906 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0655F43E173FB3B50093E906 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F43F173FB3B50093E906 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0655F453173FB3B50093E906 /* MasterViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F454173FB3B50093E906 /* en */,
-			);
-			name = MasterViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		0655F456173FB3B50093E906 /* MasterViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F457173FB3B50093E906 /* en */,
-			);
-			name = MasterViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		0655F459173FB3B50093E906 /* DetailViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F45A173FB3B50093E906 /* en */,
-			);
-			name = DetailViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		0655F45C173FB3B50093E906 /* DetailViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F45D173FB3B50093E906 /* en */,
-			);
-			name = DetailViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		0655F46E173FB3B50093E906 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0655F46F173FB3B50093E906 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		0655F474173FB3B50093E906 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0655F475173FB3B50093E906 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0655F477173FB3B50093E906 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yolo/Yolo-Prefix.pch";
-				INFOPLIST_FILE = "Yolo/Yolo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		0655F478173FB3B50093E906 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yolo/Yolo-Prefix.pch";
-				INFOPLIST_FILE = "Yolo/Yolo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		0655F47A173FB3B50093E906 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yolo.app/Yolo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yolo/Yolo-Prefix.pch";
-				INFOPLIST_FILE = "YoloTests/YoloTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		0655F47B173FB3B50093E906 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yolo.app/Yolo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yolo/Yolo-Prefix.pch";
-				INFOPLIST_FILE = "YoloTests/YoloTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		0655F42D173FB3B50093E906 /* Build configuration list for PBXProject "Yolo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0655F474173FB3B50093E906 /* Debug */,
-				0655F475173FB3B50093E906 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0655F476173FB3B50093E906 /* Build configuration list for PBXNativeTarget "Yolo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0655F477173FB3B50093E906 /* Debug */,
-				0655F478173FB3B50093E906 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0655F479173FB3B50093E906 /* Build configuration list for PBXNativeTarget "YoloTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0655F47A173FB3B50093E906 /* Debug */,
-				0655F47B173FB3B50093E906 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 0655F42A173FB3B50093E906 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>05f0c6efc3e284612bc4b1f5</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Yolo/Yolo-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>061d768a793b66c43e6b6274</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>calabash.framework</string>
+			<key>path</key>
+			<string>calabash.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F429173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F43B173FB3B50093E906</string>
+				<string>0655F46B173FB3B50093E906</string>
+				<string>0655F434173FB3B50093E906</string>
+				<string>0655F433173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F42A173FB3B50093E906</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0460</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>ustwo</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>0655F42D173FB3B50093E906</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>0655F429173FB3B50093E906</string>
+			<key>productRefGroup</key>
+			<string>0655F433173FB3B50093E906</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>0655F431173FB3B50093E906</string>
+				<string>0655F463173FB3B50093E906</string>
+				<string>44882f8c128e2f26a3761438</string>
+			</array>
+		</dict>
+		<key>0655F42D173FB3B50093E906</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0655F474173FB3B50093E906</string>
+				<string>0655F475173FB3B50093E906</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0655F42E173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F442173FB3B50093E906</string>
+				<string>0655F446173FB3B50093E906</string>
+				<string>0655F44F173FB3B50093E906</string>
+				<string>0655F452173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F42F173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F436173FB3B50093E906</string>
+				<string>0655F438173FB3B50093E906</string>
+				<string>0655F43A173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F430173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F440173FB3B50093E906</string>
+				<string>0655F448173FB3B50093E906</string>
+				<string>0655F44A173FB3B50093E906</string>
+				<string>0655F44C173FB3B50093E906</string>
+				<string>0655F455173FB3B50093E906</string>
+				<string>0655F458173FB3B50093E906</string>
+				<string>0655F45B173FB3B50093E906</string>
+				<string>0655F45E173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F431173FB3B50093E906</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>0655F476173FB3B50093E906</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0655F42E173FB3B50093E906</string>
+				<string>0655F42F173FB3B50093E906</string>
+				<string>0655F430173FB3B50093E906</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Yolo</string>
+			<key>productName</key>
+			<string>Yolo</string>
+			<key>productReference</key>
+			<string>0655F432173FB3B50093E906</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>0655F432173FB3B50093E906</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Yolo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0655F433173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F432173FB3B50093E906</string>
+				<string>0655F464173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F434173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F435173FB3B50093E906</string>
+				<string>0655F437173FB3B50093E906</string>
+				<string>0655F439173FB3B50093E906</string>
+				<string>0655F465173FB3B50093E906</string>
+				<string>d8478d58041b53ed019b2319</string>
+				<string>061d768a793b66c43e6b6274</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>path</key>
+			<string></string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F435173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>0655F436173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F435173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F437173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>0655F438173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F437173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F439173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>0655F43A173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F439173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F43B173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F444173FB3B50093E906</string>
+				<string>0655F445173FB3B50093E906</string>
+				<string>0655F44D173FB3B50093E906</string>
+				<string>0655F44E173FB3B50093E906</string>
+				<string>0655F450173FB3B50093E906</string>
+				<string>0655F451173FB3B50093E906</string>
+				<string>0655F453173FB3B50093E906</string>
+				<string>0655F456173FB3B50093E906</string>
+				<string>0655F459173FB3B50093E906</string>
+				<string>0655F45C173FB3B50093E906</string>
+				<string>0655F43C173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Yolo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F43C173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F43D173FB3B50093E906</string>
+				<string>0655F43E173FB3B50093E906</string>
+				<string>0655F441173FB3B50093E906</string>
+				<string>0655F443173FB3B50093E906</string>
+				<string>0655F447173FB3B50093E906</string>
+				<string>0655F449173FB3B50093E906</string>
+				<string>0655F44B173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F43D173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Yolo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F43E173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F43F173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F43F173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F440173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F43E173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F441173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F442173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F441173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F443173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Yolo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F444173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F445173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F446173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F445173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F447173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F448173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F447173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F449173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F44A173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F449173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F44B173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F44C173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F44B173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F44D173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MasterViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F44E173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MasterViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F44F173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F44E173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F450173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DetailViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F451173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>DetailViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F452173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F451173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F453173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F454173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>MasterViewController_iPhone.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F454173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/MasterViewController_iPhone.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F455173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F453173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F456173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F457173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>MasterViewController_iPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F457173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/MasterViewController_iPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F458173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F456173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F459173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F45A173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>DetailViewController_iPhone.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F45A173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/DetailViewController_iPhone.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F45B173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F459173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F45C173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F45D173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>DetailViewController_iPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F45D173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/DetailViewController_iPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F45E173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F45C173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F45F173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F473173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F460173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F466173FB3B50093E906</string>
+				<string>0655F467173FB3B50093E906</string>
+				<string>0655F468173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F461173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0655F470173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0655F462173FB3B50093E906</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>test_bundle_path="$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION"
+environment_args="--setenv DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection --setenv XCInjectBundle=$test_bundle_path --setenv XCInjectBundleInto=$TEST_HOST"
+ios-sim launch $(dirname $TEST_HOST) $environment_args --args -SenTest All $test_bundle_path
+echo "Finished running tests with ios-sim"</string>
+		</dict>
+		<key>0655F463173FB3B50093E906</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>0655F479173FB3B50093E906</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0655F45F173FB3B50093E906</string>
+				<string>0655F460173FB3B50093E906</string>
+				<string>0655F461173FB3B50093E906</string>
+				<string>0655F462173FB3B50093E906</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>0655F46A173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>YoloTests</string>
+			<key>productName</key>
+			<string>YoloTests</string>
+			<key>productReference</key>
+			<string>0655F464173FB3B50093E906</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>0655F464173FB3B50093E906</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>YoloTests.octest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0655F465173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SenTestingKit.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/SenTestingKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0655F466173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F465173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F467173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F435173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F468173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F437173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F469173FB3B50093E906</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>0655F42A173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0655F431173FB3B50093E906</string>
+			<key>remoteInfo</key>
+			<string>Yolo</string>
+		</dict>
+		<key>0655F46A173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>0655F431173FB3B50093E906</string>
+			<key>targetProxy</key>
+			<string>0655F469173FB3B50093E906</string>
+		</dict>
+		<key>0655F46B173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F471173FB3B50093E906</string>
+				<string>0655F472173FB3B50093E906</string>
+				<string>0655F46C173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>YoloTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F46C173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F46D173FB3B50093E906</string>
+				<string>0655F46E173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F46D173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>YoloTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F46E173FB3B50093E906</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0655F46F173FB3B50093E906</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F46F173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F470173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F46E173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F471173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>YoloTests.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F472173FB3B50093E906</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>YoloTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0655F473173FB3B50093E906</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F472173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0655F474173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0655F475173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0655F476173FB3B50093E906</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0655F477173FB3B50093E906</string>
+				<string>0655F478173FB3B50093E906</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0655F477173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Yolo/Yolo-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0655F478173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Yolo/Yolo-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0655F479173FB3B50093E906</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0655F47A173FB3B50093E906</string>
+				<string>0655F47B173FB3B50093E906</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0655F47A173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Yolo.app/Yolo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
+					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>YoloTests/YoloTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0655F47B173FB3B50093E906</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Yolo.app/Yolo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
+					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>YoloTests/YoloTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>octest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0737ee78822a7925119801c9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d8478d58041b53ed019b2319</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18612a6395d99ec1bd818fa6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F456173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25f8cc6a6ebf83944b8b82e2</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>05f0c6efc3e284612bc4b1f5</string>
+				<string>976d94bc06981fae99f84060</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>34c769c5eca1b428c4b96a45</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F44B173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>44882f8c128e2f26a3761438</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>25f8cc6a6ebf83944b8b82e2</string>
+			<key>buildPhases</key>
+			<array>
+				<string>d114a389c2fe64776c5dbe10</string>
+				<string>69a56c6694a0c945fec2dddf</string>
+				<string>fced71f00993d283283d4592</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Yolo-cal</string>
+			<key>productName</key>
+			<string>Yolo-cal</string>
+			<key>productReference</key>
+			<string>cc55d1ad060846221ef02b30</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>4b6a41291455d787d6935607</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F449173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52a5d76a5f34b0e36ff4a831</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F441173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>65757058940604564e513903</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F451173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>67591d02922c1ee0fe252be3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F459173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6869e415b705c59a241fa8d3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F43E173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>69a56c6694a0c945fec2dddf</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>deb6ee4c6f0d91ddaa15bcca</string>
+				<string>c6aeeedb7d3b9153214abda2</string>
+				<string>f92e19a322f1c3857a2f2de7</string>
+				<string>0737ee78822a7925119801c9</string>
+				<string>6cf5022fd11391b7742dd865</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6cf5022fd11391b7742dd865</key>
+		<dict>
+			<key>fileRef</key>
+			<string>061d768a793b66c43e6b6274</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7d1ce5b83e4c109ae5322406</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F447173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>976d94bc06981fae99f84060</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Yolo/Yolo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Yolo/Yolo-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>c6aeeedb7d3b9153214abda2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F437173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>cc55d1ad060846221ef02b30</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Yolo-cal.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>d114a389c2fe64776c5dbe10</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>52a5d76a5f34b0e36ff4a831</string>
+				<string>d56f6d292f0c5c8ae201710d</string>
+				<string>e89575f89acd42c2f7e13c37</string>
+				<string>65757058940604564e513903</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>d56f6d292f0c5c8ae201710d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F445173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d5c35341e0801698fec0db24</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F453173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d8478d58041b53ed019b2319</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CFNetwork.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CFNetwork.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>deb6ee4c6f0d91ddaa15bcca</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F435173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>e89575f89acd42c2f7e13c37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F44E173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f92e19a322f1c3857a2f2de7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F439173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f95ae98d5d90bf914dff26de</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0655F45C173FB3B50093E906</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fced71f00993d283283d4592</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6869e415b705c59a241fa8d3</string>
+				<string>7d1ce5b83e4c109ae5322406</string>
+				<string>4b6a41291455d787d6935607</string>
+				<string>34c769c5eca1b428c4b96a45</string>
+				<string>d5c35341e0801698fec0db24</string>
+				<string>18612a6395d99ec1bd818fa6</string>
+				<string>67591d02922c1ee0fe252be3</string>
+				<string>f95ae98d5d90bf914dff26de</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>0655F42A173FB3B50093E906</string>
+</dict>
+</plist>

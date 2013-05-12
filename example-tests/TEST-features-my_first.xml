@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Running a test" skipped="0" tests="1" time="15.073973">
+<testcase classname="Running a test" name="Example steps" time="15.073973">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[Using installed ios-sim at /usr/local/bin/ios-sim
+-------------------------------------
+Auto detected APP_BUNDLE_PATH:
+
+APP_BUNDLE_PATH=/Users/alexfish/Library/Developer/Xcode/DerivedData/Yolo-bfzvkjgzvixmfwajyqbodaweqwyu/Build/Products/Debug-iphonesimulator/Yolo-cal.app
+
+Please verify!
+If this is wrong please set it as APP_BUNDLE_PATH in features/support/01_launch.rb
+-------------------------------------
+Using installed ios-sim at /usr/local/bin/ios-sim
+Waiting for App to be ready
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>
