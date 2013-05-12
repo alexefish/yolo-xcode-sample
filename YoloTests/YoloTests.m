@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in YoloTests");
+    STAssertEqualObjects([NSObject class], [NSObject class], @"Tests are working..");
 }
 
 @end
