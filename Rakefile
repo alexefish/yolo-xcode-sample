@@ -7,6 +7,7 @@ require 'yolo'
 Yolo::Tasks::Ios::Build.new do |t|
   t.workspace = "Yolo.xcworkspace"
   t.scheme = "Yolo"
+  t.formatter = XcodeBuild::Formatters::ProgressFormatter.new
 end
 
 #
@@ -15,7 +16,9 @@ end
 Yolo::Tasks::Ios::Release.new do |t|
   t.workspace = "Yolo.xcworkspace"
   t.scheme = "Yolo"
+  t.formatter = XcodeBuild::Formatters::ProgressFormatter.new
   t.configuration = "Release"
+  t.mail_to = ["fish@ustwo.co.uk"]
 end
 
 #
@@ -24,6 +27,7 @@ end
 Yolo::Tasks::Ios::OCUnit.new do |t|
   t.workspace = "Yolo.xcworkspace"
   t.scheme = "YoloTests"
+  t.formatter = XcodeBuild::Formatters::ProgressFormatter.new
   t.test_output = :junit
 end
 
@@ -33,6 +37,7 @@ end
 Yolo::Tasks::Ios::Calabash.new do |t|
   t.workspace = "Yolo.xcworkspace"
   t.scheme = "Yolo-cal"
+  t.formatter = XcodeBuild::Formatters::ProgressFormatter.new
   t.format = :junit
   t.output_dir = "example-tests"
 end
