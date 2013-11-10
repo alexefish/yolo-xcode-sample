@@ -37,6 +37,7 @@
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    addButton.accessibilityLabel = @"Add";
     self.navigationItem.rightBarButtonItem = addButton;
 }
 

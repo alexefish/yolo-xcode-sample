@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'yolo', '1.2.5'
+gem 'json', '~> 1.7.7'
+gem 'yolo'
+gem 'rake'
